@@ -1,6 +1,6 @@
 <template>
   <div class="apiInterface">
-    功能尚在完善中，敬请期待...
+    API接口功能尚在完善中，敬请期待...
 
   </div>
 </template>

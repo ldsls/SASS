@@ -1,6 +1,6 @@
 <template>
   <div class="manualExtension">
-    功能尚在完善中，敬请期待...
+    人工分机功能尚在完善中，敬请期待...
 
   </div>
 </template>

@@ -75,16 +75,8 @@ export default {
         title: '提示',
         content: '真的要注销登录吗 ?',
         onOk: () => {
-          return this.Logout({}).then(() => {
-            setTimeout(() => {
-              window.location.reload()
-            }, 16)
-          }).catch(err => {
-            this.$message.error({
-              title: '错误',
-              description: err.message
-            })
-          })
+            console.log("点击了确定")
+            this.$router.push("/Login")
         },
         onCancel () {
         }
